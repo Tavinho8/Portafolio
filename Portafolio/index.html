@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body class="dark">
+
+    <!-- Creando el Header donde van a ir el modo oscuro y claro
+    Tambien donde van a ir los distintos colores que llevara el portafolio -->
+    <header class="header">
+        <div class="switches">
+            <!-- div para el modo oscuro y claro -->
+            <div class="toggle-theme" id="toggle-theme">
+                <img src="icons/moon.svg" alt="icon theme" class="toggle-theme__icon" id="toggle-icon">
+                <p class="toggle-theme__text" id="toggle-text">Dark Mode</p>
+            </div>
+        </div>
+
+        <!-- banderas para la el multi-idioma -->
+        <div id="flags" class="flags">
+            <div class="flags__items" data-language="es">
+                <img src="icons/spanish.svg" alt="" class="flags__img">
+            </div>
+            <div class="flags__items" data-language="en">
+                <img src="icons/english.svg" alt="" class="flags__img">
+            </div>
+        </div>
+        <!-- div para las opciones de cambios de color principal  -->
+        <div class="colors" id="toggle-colors">
+            <div class="color__item color__item--blue" data-color="hsl(214, 84%, 56%)"></div>
+            <div class="color__item color__item--green" data-color="hsl(150, 84%, 56%)"></div>
+            <div class="color__item color__item--purple" data-color="hsl(276, 84%, 56%)"></div>
+            <div class="color__item color__item--orange" data-color="hsl(46, 84%, 56%)"></div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <!-- creando el contenido y la tarjeta de perfil -->
+        <section class="column column-left">
+            <!-- tarjeta perfil -->
+            <article class="card card-profile">
+                <div class="card__image-container">
+                    <img src="img/perfil.jfif" alt="Profile Image" class="card__image">
+                </div>
+                <div class="card__header">
+                    <h2 class="card__title">
+                        Gustavo Baldizon Duarte
+                    </h2>
+                    <p class="card__subtitle" data-section="profile" data-value="role">Desarrollador de Software</p>
+                </div>
+                <div class="card__body">
+                    <div class="card__link">
+                        <i class="fas fa-envelope icon"></i>
+                        <a href="josedavid23765@gmail.com">josedavid23765@gmail.com</a>
+                    </div>
+                    <div class="card__link">
+                        <i class="fas fa-phone-alt icon"></i>
+                        <a href="josedavid23765@gmail.com">+506 89895167</a>
+                    </div>
+                    <p class="card__text" data-section="profile" data-value="description">
+                        Desarrollador Front-End con experiencia en la creación de aplicaciones web
+                        atractivas y altamente funcionales. Mi enfoque es fusionar la creatividad del diseño
+                        con la precisión del desarrollo, ofreciendo soluciones excepcionales. Mi habilidad
+                        para transformar conceptos en experiencias de usuario impactantes y eficientes,
+                        junto con mi capacidad de trabajo en equipo y mi destreza en la gestión de datos,
+                        me permiten superar los desafíos tecnológicos y proporcionar resultados de primer
+                        nivel en el desarrollo de aplicaciones web.
+                    </p>
+                </div>
+            </article>
+            <!-- vamos a crear las tarjetas de experiencia -->
+            <article class="card card--experience">
+                <h2 class="card__title title" data-section="experience" data-value="card-title">Experiencia</h2>
+                <div class="experience">
+                    <img src="img/ada.jpg" alt="" class="experience__image">
+                    <div class="experience__info">
+                        <p class="experience__time" data-section="experience" data-value="first-jobDates">
+                            Ago 2023 – Dic 2023
+                        </p>
+                        <h3 class="experience__job" data-section="experience" data-value="first-jobTitle">Desarrollador de Software</h3>
+                        <p class="experience__description" data-section="experience" data-value="first-jobDescription">
+                            Desarrollador de software utilizando Python para la implementación y
+                            personalización de módulos usando Odoo como ERP, responsable de diseñar,
+                            desarrollar y desplegar soluciones empresariales a medida que mejoraron
+                            significativamente la eficiencia operativa. Esto incluyó la creación de módulos y
+                            flujos de trabajo personalizados dentro de Odoo para optimizar procesos
+                            internos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <img src="img/ucr.png" alt="" class="experience__image">
+                    <div class="experience__info">
+                        <p class="experience__time" data-section="experience" data-value="second-jobDates">
+                            Ago 2022 – Jul 2023
+                        </p>
+                        <h3 class="experience__job" data-section="experience" data-value="second-jobTitle">Desarrollador Web</h3>
+                        <p class="experience__description" data-section="experience" data-value="second-jobDescription">
+                            Desarrollo y mantenimiento de aplicaciones web utilizando JavaScript, así como
+                            en la maquetación de interfaces mediante HTML, CSS y Bootstrap para lograr
+                            diseños atractivos y responsivos. Además, he trabajado en equipos
+                            colaborativos para garantizar la funcionalidad de los sitios web y he adquirido
+                            habilidades en la gestión de datos en formato XML y JSON, así como en la
+                            integración efectiva de bases de datos en aplicaciones web.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <img src="img/ucr.png" alt="" class="experience__image">
+                    <div class="experience__info">
+                        <p class="experience__time" data-section="experience" data-value="third-jobDates">
+                            Mar 2022 – Mar 2023
+                        </p>
+                        <h3 class="experience__job" data-section="experience" data-value="third-jobTitle">Analista – Programador</h3>
+                        <p class="experience__description" data-section="experience" data-value="third-jobDescription">
+                            Toma de requerimientos y el análisis detallado de necesidades para diseñar
+                            aplicaciones web con C# y ASP.NET CORE, siguiendo el modelo MVC. Mi trabajó
+                            incluye la realización de pruebas de aplicaciones, la integración de APIs y el
+                            desarrollo de aplicaciones móviles, lo que ha fortalecido mis habilidades en la
+                            entrega de soluciones tecnológicas integrales.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="column column-right">
+            <article class="card">
+                <h2 class="card__title" data-section="tecnology" data-value="card-title">Front-End</h2>
+                <small class="card__subtitle" data-section="tecnology" data-value="card-years">Años de experiencia</small>
+                <div class="skills">
+                    <div class="skill__header">
+                        <span class="skills__star-level" data-section="tecnology" data-value="year-one">0 Años</span>
+                        <span class="skills__star-level" data-section="tecnology" data-value="year-two">2 Años</span>
+                    </div>
+
+
+                    <div class="skill__item">
+                        <p class="skills__tech">HTML</p>
+                        <div class="skills__bar skills__bar--60"></div>
+
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">CSS</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">JAVASCRIPT</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">REACT.JS</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">BOOTSTRAP</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <h2 class="card__title">Back-End</h2>
+                <small class="card__subtitle">Años de experiencia</small>
+                <div class="skills">
+                    <div class="skill__header">
+                        <span class="skills__star-level">0 Años</span>
+                        <span class="skills__star-level">2 Años</span>
+                    </div>
+
+
+                    <div class="skill__item">
+                        <p class="skills__tech">JAVA</p>
+                        <div class="skills__bar skills__bar--60"></div>
+
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">C#</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">PHP</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">PYTHON</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <h2 class="card__title">Otras</h2>
+                <small class="card__subtitle">Años de experiencia</small>
+                <div class="skills">
+                    <div class="skill__header">
+                        <span class="skills__star-level">0 Años</span>
+                        <span class="skills__star-level">2 Años</span>
+                    </div>
+
+
+                    <div class="skill__item">
+                        <p class="skills__tech">ORACLE</p>
+                        <div class="skills__bar skills__bar--60"></div>
+
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">SQL</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">XAMPP</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">GITHUB</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+
+                    <div class="skill__item">
+                        <p class="skills__tech">FIGMA</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                </div>
+            </article>
+
+            
+
+            <!-- vamos a crear el contenido donde va ir los proyectos realizados -->
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="img/project.jpg" alt="" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JAVASCRIPT</span>
+                        <span class="project__tag">#RESPONSIVE</span>
+                    </div>
+                
+                    <h2 class="card__title project-title">Landing Page</h2>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi provident
+                        quaerat alias commodi, nobis illo tempore eaque eveniet qui repudiandae, labore consequatur nisi
+                        adipisci explicabo ipsa delectus obcaecati voluptates laborum.</p>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi provident
+                        quaerat alias commodi, nobis illo tempore eaque eveniet qui repudiandae, labore consequatur nisi
+                        adipisci explicabo ipsa delectus obcaecati voluptates laborum.</p>
+                    <div class="buttons">
+                        <a href="" class="button button--primary">Demo</a>
+                        <a href="" class="button button--ghost">Code</a>
+                    </div>                
+            </article>
+
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="img/project.jpg" alt="" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JAVASCRIPT</span>
+                        <span class="project__tag">#RESPONSIVE</span>
+                    </div>
+                
+                    <h2 class="card__title project-title">Landing Page</h2>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi provident
+                        quaerat alias commodi, nobis illo tempore eaque eveniet qui repudiandae, labore consequatur nisi
+                        adipisci explicabo ipsa delectus obcaecati voluptates laborum.</p>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi provident
+                        quaerat alias commodi, nobis illo tempore eaque eveniet qui repudiandae, labore consequatur nisi
+                        adipisci explicabo ipsa delectus obcaecati voluptates laborum.</p>
+                    <div class="buttons">
+                        <a href="" class="button button--primary">Demo</a>
+                        <a href="" class="button button--ghost">Code</a>
+                    </div>                
+            </article>
+
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="img/project.jpg" alt="" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JAVASCRIPT</span>
+                        <span class="project__tag">#RESPONSIVE</span>
+                    </div>
+                
+                    <h2 class="card__title project-title">Landing Page</h2>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi provident
+                        quaerat alias commodi, nobis illo tempore eaque eveniet qui repudiandae, labore consequatur nisi
+                        adipisci explicabo ipsa delectus obcaecati voluptates laborum.</p>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi provident
+                        quaerat alias commodi, nobis illo tempore eaque eveniet qui repudiandae, labore consequatur nisi
+                        adipisci explicabo ipsa delectus obcaecati voluptates laborum.</p>
+                    <div class="buttons">
+                        <a href="" class="button button--primary">Demo</a>
+                        <a href="" class="button button--ghost">Code</a>
+                    </div>                
+            </article>
+
+
+            </article>
+        </section>
+
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

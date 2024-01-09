@@ -1,0 +1,24 @@
+{
+    "profile": {
+        "role": "Desarrollador de Software",
+        "description": "Desarrollador Front-End con experiencia en la creación de aplicaciones web\natractivas y altamente funcionales. Mi enfoque es fusionar la creatividad del diseño\ncon la precisión del desarrollo, ofreciendo soluciones excepcionales. Mi habilidad\npara transformar conceptos en experiencias de usuario impactantes y eficientes,\njunto con mi capacidad de trabajo en equipo y mi destreza en la gestión de datos,\nme permiten superar los desafíos tecnológicos y proporcionar resultados de primer\nnivel en el desarrollo de aplicaciones web."
+    },
+    "experience": {
+        "card-title": "Experiencia",
+        "first-jobDates": "Ago 2023 - Dic 2023",
+        "first-jobTitle": "Desarrollador de Software",
+        "first-jobDescription": "Desarrollador de software utilizando Python para la implementación y personalización de módulos usando Odoo como ERP, responsable de diseñar, desarrollar y desplegar soluciones empresariales a medida que mejoraron significativamente la eficiencia operativa. Esto incluyó la creación de módulos y flujos de trabajo personalizados dentro de Odoo para optimizar procesos internos.",
+        "second-jobDates": "Ago 2022 – Jul 2023",
+        "second-jobTitle": "Desarrollador Web",
+        "second-jobDescription": "Desarrollo y mantenimiento de aplicaciones web utilizando JavaScript, así como en la maquetación de interfaces mediante HTML, CSS y Bootstrap para lograr diseños atractivos y responsivos. Además, he trabajado en equipos colaborativos para garantizar la funcionalidad de los sitios web y he adquirido habilidades en la gestión de datos en formato XML y JSON, así como en la integración efectiva de bases de datos en aplicaciones web.",
+        "third-jobDates": "Mar 2022 – Mar 2023",
+        "third-jobTitle": "Analista – Programador",
+        "third-jobDescription": "Toma de requerimientos y el análisis detallado de necesidades para diseñar aplicaciones web con C# y ASP.NET CORE, siguiendo el modelo MVC. Mi trabajo incluye la realización de pruebas de aplicaciones, la integración de APIs y el desarrollo de aplicaciones móviles, lo que ha fortalecido mis habilidades en la entrega de soluciones tecnológicas integrales."
+    },
+    "tecnology": {
+        "card-title": "Front-End",
+        "card-years": "Años de experiencia",
+        "year-one": "0 Años",
+        "year-two": "2 Años"
+    }
+}

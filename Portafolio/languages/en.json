@@ -1,0 +1,24 @@
+{
+    "profile": {
+        "role": "Software Developer",
+        "description": "Front-End Developer with experience in creating attractive and highly functional web applications. My focus is to merge design creativity with development precision, delivering exceptional solutions. My ability to transform concepts into impactful and efficient user experiences, combined with my teamwork skills and proficiency in data management, allows me to overcome technological challenges and deliver top-notch results in web application development."
+    },
+    "experience": {
+        "card-title": "Experience",
+        "first-jobDates": "Aug 2023 - Dec 2023",
+        "first-jobTitle": "Software Developer",
+        "first-jobDescription": "Software developer using Python for the implementation and customization of modules using Odoo as an ERP, responsible for designing, developing, and deploying tailored business solutions that significantly improved operational efficiency. This included creating custom modules and workflows within Odoo to optimize internal processes.",
+        "second-jobDates": "Aug 2022 – Jul 2023",
+        "second-jobTitle": "Web Developer",
+        "second-jobDescription": "Development and maintenance of web applications using JavaScript, as well as layout design using HTML, CSS, and Bootstrap to achieve attractive and responsive designs. Additionally, I have worked in collaborative teams to ensure website functionality and have acquired skills in managing data in XML and JSON formats, as well as effectively integrating databases into web applications.",
+        "third-jobDates": "Mar 2022 – Mar 2023",
+        "third-jobTitle": "Analyst – Programmer",
+        "third-jobDescription": "Requirement gathering and detailed needs analysis to design web applications using C# and ASP.NET CORE, following the MVC model. My work includes conducting application tests, integrating APIs, and developing mobile applications, which has strengthened my skills in delivering comprehensive technological solutions."
+    },
+    "tecnology": {
+        "card-title": "Front-End",
+        "card-years": "Years of experience",
+        "year-one": "0 Years",
+        "year-two": "2 Years"
+    }
+}
