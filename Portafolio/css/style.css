@@ -27,7 +27,7 @@ body {
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: var(--transition);
+    transition: all 1.1s ease;
     font-family: sans-serif;
 }
 
@@ -35,6 +35,7 @@ body.dark {
     --text-color: hsl(0, 0%, 83%);
     --bg-color: hsl(0, 0%, 15%);
     --bg-card-color: hsl(0, 0%, 20%);
+    transition: all 1.1s ease;
 }
 
 .header {
@@ -296,6 +297,10 @@ body.dark {
     width: 275px;
 }
 
+.card__image-container img{
+    align-items: center;
+    justify-content: center;
+}
 .project__tag {
     padding: 0.4em;
     border-radius: var(--border-radius);
